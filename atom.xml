@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+  <title>zsy&#39;s blog</title>
+  
+  <subtitle>Welcome visitors</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-11-12T08:12:25.695Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zsy</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/11/12/hello-world/"/>
+    <id>http://yoursite.com/2019/11/12/hello-world/</id>
+    <published>2019-11-12T08:12:25.695Z</published>
+    <updated>2019-11-12T08:12:25.695Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇博文</title>
+    <link href="http://yoursite.com/2019/11/11/wo-de-di-yi-pian-bo-wen/"/>
+    <id>http://yoursite.com/2019/11/11/wo-de-di-yi-pian-bo-wen/</id>
+    <published>2019-11-11T14:30:47.000Z</published>
+    <updated>2019-11-11T14:30:47.633Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
