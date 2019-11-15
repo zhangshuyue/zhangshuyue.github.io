@@ -26,7 +26,7 @@
     
     <script src="/libs/jquery/jquery.min.js"></script>
     
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -48,7 +48,7 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/" class="waves-effect waves-light">
+    <a href="https://zhangshuyue.github.io/" target="_blank" rel="noopener" class="waves-effect waves-light">
       
       <i class="fas fa-home" style="zoom: 0.6;"></i>
       
@@ -150,7 +150,7 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/" class="waves-effect waves-light">
+		<a href="https://zhangshuyue.github.io/" target="_blank" rel="noopener" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-home"></i>
 			
@@ -396,7 +396,7 @@
 
             <div class="cover-btns">
                 
-                <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
+                <a href="https://github.com/zhangshuyue" class="waves-effect waves-light btn" target="_blank">
                     <i class="fab fa-github-alt"></i>Github
                 </a>
                 
@@ -404,6 +404,9 @@
             <div class="cover-social-link">
 
 
+    <a href="mailto:526472325@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
 
 
 
@@ -411,8 +414,21 @@
 
 
 
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=526472325" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 526472325" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
 
 
+
+    <a href="https://weibo.com/u/7201195633/home?wvr=5&amp;lf=reg" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/u/7201195633/home?wvr=5&amp;lf=reg" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/she-yu-74-35/activities" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/she-yu-74-35/activities" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
 
 
 
@@ -500,6 +516,37 @@ $(function () {
                     
 
                     
+                        
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'false' === 'true',
+        autoplay: 'false' === 'true',
+        theme: '#42b983',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: JSON.parse('[{" name ":" 斑马斑马 "," artist ":" 宋冬野 "," url ":" https://i.y.qq.com/v8/playsong.html?songid=5002692&amp;source=yqq.mp3","封面":" http://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90&step_word=&hs=0&pn=0&spn=0&di=22440&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=2742846380%2C1729906863&os=3952132200%2C2136556592&simid=3389493705%2C551883535&adpicid=0&lpn=0&ln=1777&fr=&fmq=1573822102786_R&fm=&ic=undefined&s=undefined&hd=undefined&latest=undefined&copyright=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F17%2F21%2F63A58PICKH5_1024.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fks52_z%26e3Bftgw_z%26e3Bv54_z%26e3BvgAzdH3FfAzdH3Fks52_1kvl0nuca8ado7mr_z%26e3Bip4s&gsm=&rpstart=0&rpnum=0&islist=&querylist=&force=undefined.jpg "}]')
+    });
+});
+</script>
+                    
 
                     
 
@@ -572,6 +619,9 @@ $(function () {
                         <div class="summary block-with-text">
                             
                                 
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                             
                         </div>
                         <div class="publish-info">
@@ -638,8 +688,8 @@ $(function () {
                     var years = days * 365;
                     var today = new Date();
                     var startYear = "2019";
-                    var startMonth = "6";
-                    var startDate = "28";
+                    var startMonth = "11";
+                    var startDate = "11";
                     var startHour = "0";
                     var startMinute = "0";
                     var startSecond = "0";
@@ -678,6 +728,9 @@ $(function () {
         <div class="col s12 m4 l4 social-link social-statis">
 
 
+    <a href="mailto:526472325@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
 
 
 
@@ -685,8 +738,21 @@ $(function () {
 
 
 
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=526472325" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 526472325" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
 
 
+
+    <a href="https://weibo.com/u/7201195633/home?wvr=5&amp;lf=reg" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://weibo.com/u/7201195633/home?wvr=5&amp;lf=reg" data-position="top" data-delay="50">
+        <i class="fab fa-weibo"></i>
+    </a>
+
+
+
+    <a href="https://www.zhihu.com/people/she-yu-74-35/activities" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/she-yu-74-35/activities" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
 
 
 
