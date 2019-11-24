@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-12T08:12:25.695Z</updated>
+  <updated>2019-11-24T15:34:31.025Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,9 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>css盒子学习记录</title>
+    <link href="http://yoursite.com/2019/11/24/css-he-zi-xue-xi-ji-lu/"/>
+    <id>http://yoursite.com/2019/11/24/css-he-zi-xue-xi-ji-lu/</id>
+    <published>2019-11-24T15:00:00.000Z</published>
+    <updated>2019-11-24T15:34:31.025Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://yoursite.com/categories/Markdown/"/>
+    
+    
+      <category term="Typora" scheme="http://yoursite.com/tags/Typora/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/11/12/hello-world/"/>
-    <id>http://yoursite.com/2019/11/12/hello-world/</id>
+    <link href="http://yoursite.com/2019/11/12/helloworld/"/>
+    <id>http://yoursite.com/2019/11/12/helloworld/</id>
     <published>2019-11-12T08:12:25.695Z</published>
     <updated>2019-11-12T08:12:25.695Z</updated>
     
@@ -29,59 +58,13 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇博文</title>
-    <link href="http://yoursite.com/2019/11/11/wo-de-di-yi-pian-bo-wen/"/>
-    <id>http://yoursite.com/2019/11/11/wo-de-di-yi-pian-bo-wen/</id>
-    <published>2019-11-11T14:30:47.000Z</published>
-    <updated>2019-11-11T14:30:47.633Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>123</title>
-    <link href="http://yoursite.com/2019/11/11/zheng-jian-wu-zha-nan/"/>
-    <id>http://yoursite.com/2019/11/11/zheng-jian-wu-zha-nan/</id>
-    <published>2019-11-11T02:09:20.000Z</published>
-    <updated>2019-11-16T13:13:33.449Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;zhangshuyue&quot;&gt;&lt;a href=&quot;#zhangshuyue&quot; class=&quot;headerlink&quot; title=&quot;zhangshuyue&quot;&gt;&lt;/a&gt;zhangshuyue&lt;/h2&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="-测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
